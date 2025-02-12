@@ -1,5 +1,5 @@
 {
-	"name": "PeerJS Server",
-	"description": "A server side element to broker connections between PeerJS clients.",
-	"website": "https://peerjs.com/"
+	"name": "Chatrooms",
+	"description": "Peerjs server for ChatRooms, a server side element to broker connections between PeerJS clients.",
+	"website": "https://rooms.saklani.dev"
 }
