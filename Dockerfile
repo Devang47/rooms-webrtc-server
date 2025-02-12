@@ -15,7 +15,7 @@ RUN mkdir /peer-server
 WORKDIR /peer-server
 COPY package.json package-lock.json ./
 RUN npm i -g pnpm
-RUN pnpm install --omit=dev
+RUN pnpm install
 COPY --from=build /peer-server/dist/bin/peerjs.js ./
 ENV PORT 9000
 EXPOSE ${PORT}
